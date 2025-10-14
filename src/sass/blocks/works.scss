@@ -2,6 +2,7 @@
 
 .works {
     margin-top: 60px;
+    margin-bottom: 90px;
     &__slider {
         margin-top: 40px;
     }
@@ -77,7 +78,8 @@
 
 @media screen and (min-width: 1920px) {
     .works {
-        padding-top: 100px;
+        margin-top: 100px;
+        margin-bottom: 130px;
         &__slider {
                 margin: 80px 85px 0 85px;
         }
