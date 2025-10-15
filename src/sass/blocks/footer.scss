@@ -1,0 +1,19 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.footer {
+    padding: 50px 0;
+    background-color: $dark;
+    &__header {
+        margin-bottom: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: $light;
+    }
+    &__text {
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        color: $light;
+    }
+}
