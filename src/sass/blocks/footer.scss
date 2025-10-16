@@ -10,10 +10,61 @@
         text-transform: uppercase;
         color: $light;
     }
+    &__form {
+        margin-bottom: 40px;
+    }
     &__text {
         margin-bottom: 40px;
         font-weight: 400;
         font-size: 16px;
         color: $light;
+    }
+    &__input {
+        display: block;
+        padding: 0 0 15px 0;
+        margin-bottom: 20px;
+        width: 293px;
+        height: 32px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid $ui-active;
+        box-shadow: none;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $ui-active;
+        &::placeholder {
+            font-style: normal;
+            line-height: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: $ui-active;
+        }
+    }
+    &__check-block {
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+        color: $light;
+        a {
+            color: #A22DC6;
+            text-decoration: none;
+            margin-left: 3px;
+            }
+    }
+    &__checkbox {
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+    }
+    &__link {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 66px;
+        row-gap: 40px;
     }
 }
