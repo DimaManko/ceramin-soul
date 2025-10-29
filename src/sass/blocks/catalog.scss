@@ -76,18 +76,6 @@
             margin-bottom: 0;
             position: relative;
             @include angle-decoration;
-            // &::before {
-            //     height: 200px;
-            //     width: 200px;
-            //     position: absolute;
-            //     content: '';
-            // }
-            // &::before {
-            //     border-left: 1px solid $dark;
-            //     border-top: 1px solid $dark;
-            //     top: -10px;
-            //     left: -5px;
-            // }
             &-item {
                 align-items: flex-start;
                 flex-direction: row;

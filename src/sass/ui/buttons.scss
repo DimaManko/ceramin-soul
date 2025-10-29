@@ -13,10 +13,7 @@
     width: 220px;
     height: 40px;
     font-size: 16px;
-    &:focus {
-        outline: 1px solid $ceramic;
-        border: 1px solid $ceramic;
-    }
+    @include btn_active_focus-ceramic;
     &:disabled {
         color: $ui-disabled;
         border: 1px solid $ui-disabled;
@@ -37,10 +34,7 @@
     width: 145px;
     height: 32px;
     font-size: 14px;
-    &:focus {
-            outline: 1px solid $ceramic;
-            border: 1px solid $ceramic;
-        }
+    @include btn_active_focus-ceramic;
 }
 
 @media screen and (min-width: 1200px) {
@@ -59,26 +53,13 @@
     }
 
     .btn-send {
-        &:active {
-                outline: 1px solid $ceramic;
-                border: 1px solid $ceramic;
-            }
-        &:hover {
-            color: $ceramic;
-            border: 1px solid $ceramic;
-        }
+        @include btn_active_focus-ceramic;
+        @include btn_hover-ceramic;
     }
 
         .btn-read {
-            &:active {
-                    outline: 1px solid $ceramic;
-                    border: 1px solid $ceramic;
-                }
-            
-                &:hover {
-                    color: $ceramic;
-                    border: 1px solid $ceramic;
-                }
+            @include btn_active_focus-ceramic;
+            @include btn_hover-ceramic;
         }
 }
 
