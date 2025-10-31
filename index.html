@@ -120,11 +120,13 @@
 						<label class="touch__label" for="question">Your question</label>
 						<textarea required class="touch__textarea" name="question" id="question"
 							placeholder="Question"></textarea>
+						<div class="error-message"></div>
 
 						<label class="touch__label touch__check-block" for="checkbox">
 							<input required class="touch__checkbox" type="checkbox" id="checkbox">
 							I agree with the <a href="#">terms</a>
 						</label>
+						<div class="checkbox-error-message"></div>
 
 						<button class="btn-send touch__btn">send request</button>
 					</form>
@@ -172,11 +174,14 @@
 					<h2 class="footer__header">newsletter</h2>
 					<p class="footer__text">Keep up to date with news and promotions</p>
 					<form action="#" class="footer__form">
-						<input class="footer__input" type="email" placeholder="Enter your e-mail" required>
+						<input class="footer__input" type="email" placeholder="Enter your e-mail" required
+							id="footer__email">
+						<div class="error-message"></div>
 						<label class="footer__label footer__check-block" for="footer__checkbox">
 							<input required class="footer__checkbox" type="checkbox" id="footer__checkbox">
 							I agree with the <a href="#">terms</a>
 						</label>
+						<div class="checkbox-error-message"></div>
 						<button class="btn-submit footer__btn">submit</button>
 					</form>
 				</div>
